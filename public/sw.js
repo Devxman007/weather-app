@@ -17,6 +17,7 @@ const FILES_TO_CACHE = [
   "img/rain.svg",
   "img/Sunny_Rain_Climate.svg",
   "img/Sunny_Sun_Cloudy.svg",
+  "img/Snow.svg"
 ];
 
 self.addEventListener("install", (evt) => {
