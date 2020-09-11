@@ -20,6 +20,13 @@
            <p>Casablanca</p>
         </div>
 
+        <form onsubmit="return false">
+            <label for="searchValue">City</label>
+            <input type="text" placeholder="city" id="searchValue" required />
+
+            <input type="button" id="searchBtn" value="search" />
+        </form>
+
         <div id="temp">
           <img id="temp-icon" src="./img/Hot_Sun_Day.png" alt="Hot_Sun_Day">
          <p><span id="temp-value">25</span> <span id="temp-unit">&#176c</span></p>
