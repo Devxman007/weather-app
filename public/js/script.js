@@ -53,7 +53,7 @@ function rendreView(data) {
   climate.textContent = main;
   tempValue.textContent = feels_like;
 
-  if (feels_like < 250) {
+  if (id < 250) {
     tempIcon.src = "./img/thunderstorm.svg";
   } else if (id < 350) {
     tempIcon.src = "./img/rain.svg";
@@ -64,7 +64,7 @@ function rendreView(data) {
   } else if (id < 800) {
     tempIcon.src = "./img/Atmosphere.svg";
   } else if (id === 800) {
-    tempIcon.src = "Hot_Sun_Day.svg";
+    tempIcon.src = "./img/Hot_Sun_Day.svg";
   } else if (id > 800) {
     tempIcon.src = "./img/Sunny_Sun_Cloudy.svg";
   }
